@@ -48,6 +48,7 @@ const Airline = (props) => {
     return (
         <Card>
             <AirlineLogo><img src={props.attributes.image_url} alt={props.attributes.name} /></AirlineLogo>
+            {/* <AirlineLogo><img src={"/images/Alaska-Airlines.png"} /></AirlineLogo> */}
             <AirlineName>{props.attributes.name}</AirlineName>
             <div className="airline-score">{props.attributes.avg_score}</div>
             <LinkWrapper>

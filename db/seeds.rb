@@ -8,27 +8,27 @@
 airlines = Airline.create([
   { 
     name: "United Airlines",
-    image_url: "./app/assets/images/United-Airlines.png"
+    image_url: "/images/United-Airlines.png"
   }, 
   { 
     name: "Southwest",
-    image_url: "./app/assets/images/Southwest-Airlines.png"
+    image_url: "/images/Southwest-Airlines.png"
   },
   { 
     name: "Delta",
-    image_url: "./app/assets/images/Delta.png" 
+    image_url: "/images/Delta.png" 
   }, 
   { 
     name: "Alaska Airlines",
-    image_url: "./app/assets/images/Alaska-Airlines.png" 
+    image_url: "/images/Alaska-Airlines.png" 
   }, 
   { 
     name: "JetBlue",
-    image_url: "./app/assets/images/JetBlue.png" 
+    image_url: "/images/JetBlue.png" 
   }, 
   { 
     name: "American Airlines",
-    image_url: "./app/assets/images/American-Airlines.png" 
+    image_url: "/images/American-Airlines.png" 
   }
 ])
 
